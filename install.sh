@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install neovim
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage && chmod +x nvim.appimage && ln -s /home/akihiro/nvim.appimage /home/akihiro/.local/bin/nvim
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage && chmod +x nvim.appimage && ln -s /home/okuda/nvim.appimage /home/okuda/.local/bin/nvim
 
 
 # install vim-plug

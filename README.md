@@ -4,6 +4,7 @@
 - vim-plug
 - init.vim(frontierPCで使用中のもの)
 ## インストール手順
+0. /home/okuda/.local/bin/にパスが通っているか確認し、通っていたら1に進む。通っていない場合はinstall.shの一行目最後のコマンドのパスを適切なものに変える。
 1. `cd ~/ && git clone `
 2. `./install.sh`
 3. `nvim`コマンドを叩き、`:PlugInstall`と打つ
