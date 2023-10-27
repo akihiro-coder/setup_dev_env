@@ -1,4 +1,9 @@
-# 自宅での開発環境の構築
+# 開発環境の構築
+## インストール項目
+- neovim
+- vim-plug
+- init.vim(frontierPCで使用中のもの)
+## インストール手順
 1. `cd ~/ && git clone `
 2. `./install.sh`
 3. `nvim`コマンドを叩き、`:PlugInstall`と打つ
@@ -11,4 +16,4 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 sudo apt-get update && sudo apt-get install nodejs -y
 ```
 5. `:CocInstall coc-jedi`と打ち、python補完パッケージをインストールする
-6. 必要に応じて、cocのパッケージをインストールする
+6. 必要に応じて、他のcocのパッケージをインストールする
