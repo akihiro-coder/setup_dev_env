@@ -9,7 +9,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 
-# git clone frontier_branch and locat e init.vim to correct directory
+# git clone init.vim to correct directory
 dir_path="./.config/nvim/"
 mkdir $dir_path
 if [ $? -eq 0 ]; then
